@@ -1,0 +1,12 @@
+.weekly-board{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "day day2 day3 day4 day5";
+    position: relative;
+    justify-items: center;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    transform: translate(0px, -100px);
+}
