@@ -1,6 +1,8 @@
 .form{
     width: 40%;
+    min-width: 300px;
     margin: 30px auto;
+    display: flex;
 }
 
 input{
@@ -33,6 +35,7 @@ button{
     outline: none;
     color: #848484;
     transition: 2s;
+    margin: 10px;
 }
 
 button:hover{
